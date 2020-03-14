@@ -22,10 +22,10 @@ package cli
 import (
 	"fmt"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/xact"
 	"github.com/spf13/cobra"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
 )
 
 func shellExecCmd(cmd *cobra.Command, args []string) {

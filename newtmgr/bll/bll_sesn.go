@@ -31,15 +31,15 @@ import (
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmble"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmcoap"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmp"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/nmcoap"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
 )
 
 // A session that uses the host machine's native BLE support.

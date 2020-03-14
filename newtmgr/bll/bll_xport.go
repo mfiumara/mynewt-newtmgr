@@ -24,10 +24,10 @@ package bll
 import (
 	"fmt"
 
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 	"github.com/rigado/ble"
 	"github.com/rigado/ble/examples/lib/dev"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
 )
 
 type XportCfg struct {

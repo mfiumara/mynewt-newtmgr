@@ -26,7 +26,7 @@ import (
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 // The dispatcher is the owner of the listeners it points to.  Only the

@@ -24,8 +24,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
 	"github.com/runtimeco/go-coap"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
 )
 
 type ObserveCode int

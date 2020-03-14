@@ -28,7 +28,7 @@ import (
 	"github.com/rigado/ble"
 	log "github.com/sirupsen/logrus"
 
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func exchangeMtu(cln ble.Client, preferredMtu uint16) (uint16, error) {

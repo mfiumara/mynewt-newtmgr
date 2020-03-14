@@ -22,8 +22,8 @@ package udp
 import (
 	"fmt"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 )
 
 type UdpXport struct {

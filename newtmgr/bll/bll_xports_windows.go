@@ -24,8 +24,8 @@ package bll
 import (
 	"fmt"
 
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 )
 
 type XportCfg struct {
@@ -40,13 +40,13 @@ func NewXportCfg() XportCfg {
 }
 
 type BllXport struct {
-	cfg XportCfg
+	cfg    XportCfg
 	hciIdx int
 }
 
 func NewBllXport(cfg XportCfg, hciIdx int) *BllXport {
 	return &BllXport{
-		cfg: cfg,
+		cfg:    cfg,
 		hciIdx: hciIdx,
 	}
 }

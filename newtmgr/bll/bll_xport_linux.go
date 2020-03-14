@@ -26,8 +26,8 @@ import (
 	"github.com/rigado/ble/linux"
 	"github.com/rigado/ble/linux/hci/cmd"
 
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
 )
 
 func BllXportSetConnParams(dev ble.Device, ownAddrType bledefs.BleAddrType) error {

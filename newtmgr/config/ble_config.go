@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmble"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/xport"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
-	"mynewt.apache.org/newtmgr/nmxact/nmble"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
-	"mynewt.apache.org/newtmgr/nmxact/xport"
 )
 
 type BleConfig struct {

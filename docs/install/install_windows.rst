@@ -86,7 +86,7 @@ build and install the latest release version of newtmgr from source.
    .. code-block:: console
 
 
-      $ go get mynewt.apache.org/newtmgr/newtmgr
+      $ go get github.com/mfiumara/mynewt-newtmgr/newtmgr
 
    **Note** If you get the following error, you may ignore it as we will
    rebuild newtmgr from the latest release version of newtmgr in the next
@@ -101,7 +101,7 @@ build and install the latest release version of newtmgr from source.
 
    .. code-block:: console
 
-      $ cd src/mynewt.apache.org/newtmgr
+      $ cd src/github.com/mfiumara/mynewt-newtmgr
       $ git checkout mynewt_1_4_1_tag
       Note: checking out 'mynewt_1_4_1_tag'.
 

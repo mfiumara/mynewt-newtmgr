@@ -29,13 +29,13 @@ import (
 	"strings"
 	"sync"
 
-	log "github.com/sirupsen/logrus"
 	"github.com/runtimeco/go-coap"
+	log "github.com/sirupsen/logrus"
 	"github.com/ugorji/go/codec"
 
-	"mynewt.apache.org/newtmgr/nmxact/lora"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/lora"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 )
 
 type LoraConfig struct {

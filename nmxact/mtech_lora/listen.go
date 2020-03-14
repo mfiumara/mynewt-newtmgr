@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 type ListenerKey struct {
@@ -71,7 +71,7 @@ func NewListener() *Listener {
 		ConnChan: make(chan *LoraSesn, 4),
 
 		RefCnt: 1,
-		Data: bytes.NewBuffer([]byte{}),
+		Data:   bytes.NewBuffer([]byte{}),
 	}
 }
 

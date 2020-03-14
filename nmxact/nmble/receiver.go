@@ -22,7 +22,7 @@ package nmble
 import (
 	"sync"
 
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
 )
 
 // The receiver never writes to any of its listeners.  It only maintains a set

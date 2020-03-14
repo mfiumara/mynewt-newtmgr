@@ -25,10 +25,10 @@ import (
 
 	pb "gopkg.in/cheggaaa/pb.v1"
 
-	"mynewt.apache.org/newtmgr/nmxact/mgmt"
-	"mynewt.apache.org/newtmgr/nmxact/nmp"
-	"mynewt.apache.org/newtmgr/nmxact/nmxutil"
-	"mynewt.apache.org/newtmgr/nmxact/sesn"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/mgmt"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmp"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/nmxutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/sesn"
 )
 
 //////////////////////////////////////////////////////////////////////////////

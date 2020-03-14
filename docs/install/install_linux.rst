@@ -168,7 +168,7 @@ install the latest release version of newtmgr from source.
 
    .. code-block:: console
 
-      $ go get mynewt.apache.org/newtmgr/newtmgr
+      $ go get github.com/mfiumara/mynewt-newtmgr/newtmgr
       $ ls -l /tmp/go/bin/newtmgr
       -rwxr-xr-x  1 user staff  17884488 Jul 29 16:25 /tmp/go/bin/newtmgr
 
@@ -176,7 +176,7 @@ install the latest release version of newtmgr from source.
 
    .. code-block:: console
 
-      $ cd src/mynewt.apache.org/newtmgr
+      $ cd src/github.com/mfiumara/mynewt-newtmgr
       $ git checkout mynewt_1_4_1_tag
       Note: checking out 'mynewt_1_4_1_tag'.
 

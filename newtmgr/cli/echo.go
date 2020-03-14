@@ -24,9 +24,9 @@ import (
 
 	"github.com/spf13/cobra"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/xact"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
-	"mynewt.apache.org/newtmgr/nmxact/xact"
 )
 
 func echoRunCmd(cmd *cobra.Command, args []string) {

@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/config"
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/config"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
 
 	"github.com/spf13/cobra"
 )

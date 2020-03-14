@@ -20,8 +20,8 @@
 package config
 
 import (
-	log "github.com/sirupsen/logrus"
 	"github.com/mitchellh/go-homedir"
+	log "github.com/sirupsen/logrus"
 
 	"encoding/json"
 	"fmt"
@@ -30,8 +30,8 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/mfiumara/mynewt-newtmgr/newtmgr/nmutil"
 	"mynewt.apache.org/newt/util"
-	"mynewt.apache.org/newtmgr/newtmgr/nmutil"
 )
 
 type ConnProfileMgr struct {

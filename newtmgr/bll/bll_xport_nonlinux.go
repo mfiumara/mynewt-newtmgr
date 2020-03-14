@@ -24,7 +24,7 @@ package bll
 import (
 	"github.com/rigado/ble"
 
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
 )
 
 // macOS (CoreBluetooth) does not allow the connection parameters to be

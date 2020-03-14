@@ -27,7 +27,7 @@ import (
 
 	"github.com/rigado/ble"
 
-	"mynewt.apache.org/newtmgr/nmxact/bledefs"
+	"github.com/mfiumara/mynewt-newtmgr/nmxact/bledefs"
 )
 
 func UuidFromBllUuid(bllUuid ble.UUID) (bledefs.BleUuid, error) {
