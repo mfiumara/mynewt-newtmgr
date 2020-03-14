@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/go-ble/ble"
+	"github.com/rigado/ble"
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
 	"golang.org/x/net/context"

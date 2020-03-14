@@ -12,7 +12,6 @@ require (
 	github.com/fatih/color v1.7.0 // indirect
 	github.com/fatih/structs v1.1.0
 	github.com/flynn-archive/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
-	github.com/go-ble/ble v0.0.0-20190521171521-147700f13610
 	github.com/go-delve/delve v1.3.1 // indirect
 	github.com/joaojeronimo/go-crc16 v0.0.0-20140729130949-59bd0194935e
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
@@ -25,6 +24,7 @@ require (
 	github.com/peterh/liner v1.1.0 // indirect
 	github.com/pkg/errors v0.8.1
 	github.com/raff/goble v0.0.0-20190909174656-72afc67d6a99 // indirect
+	github.com/rigado/ble v0.5.1
 	github.com/runtimeco/go-coap v0.0.0-20190911184520-8e5532820fc0
 	github.com/sirupsen/logrus v1.4.2
 	github.com/spf13/cast v1.3.0
@@ -36,7 +36,6 @@ require (
 	go.starlark.net v0.0.0-20190919145610-979af19b165c // indirect
 	golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4 // indirect
 	golang.org/x/net v0.0.0-20191119073136-fc4aabc6c914
-	golang.org/x/sys v0.0.0-20191120155948-bd437916bb0e // indirect
 	gopkg.in/VividCortex/ewma.v1 v1.1.1 // indirect
 	gopkg.in/abiosoft/ishell.v2 v2.0.0
 	gopkg.in/cheggaaa/pb.v1 v1.0.28

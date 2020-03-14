@@ -25,8 +25,8 @@ import (
 	"runtime"
 	"time"
 
+	"github.com/rigado/ble"
 	log "github.com/sirupsen/logrus"
-	"github.com/go-ble/ble"
 
 	"mynewt.apache.org/newtmgr/nmxact/bledefs"
 )

@@ -327,9 +327,9 @@ This product bundles readline, which is available under the MIT license.
 For details, see:
     * vendor/github.com/chzyer/readline/LICENSE
 
-This product bundles go-blel, which is available under the "3-clause BSD"
+This product bundles ble, which is available under the "3-clause BSD"
 license. For details, see:
-    * vendor/github.com/go-ble/ble/LICENSE
+    * vendor/github.com/rigado/ble/LICENSE
 
 This product bundles ishell.v1, which is available under the MIT license.
 For details, see:
